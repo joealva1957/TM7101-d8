@@ -1,0 +1,18 @@
+uuid: 89d156bd-5b5e-49b3-a003-86f2b983c5b1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Event
+type: event
+description: 'A content type used to capture the details about upcoming events'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

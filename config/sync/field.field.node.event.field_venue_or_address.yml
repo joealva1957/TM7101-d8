@@ -1,0 +1,21 @@
+uuid: 62600fbc-6af8-413b-8fa6-565194e746e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_venue_or_address
+    - node.type.event
+  module:
+    - text
+id: node.event.field_venue_or_address
+field_name: field_venue_or_address
+entity_type: node
+bundle: event
+label: 'Venue or Address'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,9 @@
+uuid: 521bb234-1b0c-4b2c-b89f-c9d21a1ed522
+langcode: en
+status: true
+dependencies: {  }
+name: Categoría
+vid: category
+description: 'Una lista de términos utlizados para categorizar el tipo de contenido.'
+hierarchy: 0
+weight: 0

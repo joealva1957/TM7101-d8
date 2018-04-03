@@ -1,0 +1,12 @@
+uuid: 6c2e8858-810f-4027-9452-50d284eb17a6
+langcode: en
+status: true
+dependencies: {  }
+id: bug_report
+label: 'Bug report'
+recipients:
+  - joealva1957@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

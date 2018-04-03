@@ -1,0 +1,12 @@
+uuid: b0c2f033-bd42-4bca-8e73-809eb7dad2f1
+langcode: en
+status: true
+dependencies: {  }
+id: event_creator
+label: 'Event Creator'
+weight: 3
+is_admin: null
+permissions:
+  - 'create event content'
+  - 'delete own event content'
+  - 'edit own event content'

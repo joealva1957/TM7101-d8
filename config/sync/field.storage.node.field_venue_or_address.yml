@@ -1,0 +1,20 @@
+uuid: 4e374aee-8a74-48c3-b8f7-d67ecd8c86cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_venue_or_address
+field_name: field_venue_or_address
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
