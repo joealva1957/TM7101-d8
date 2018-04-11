@@ -26,6 +26,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5",
         "drupal/devel": "~1.0",
+        "drupal/entityqueue": "^1.0",
         "drupal/omega": "^5.0",
         "drupal/simplenews": "1.x-dev",
         "drush/drush": "^9.0.0",
