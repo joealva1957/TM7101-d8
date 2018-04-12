@@ -28,6 +28,7 @@
         "drupal/devel": "~1.0",
         "drupal/entityqueue": "^1.0",
         "drupal/omega": "^5.0",
+        "drupal/pathauto": "^1.1",
         "drupal/simplenews": "1.x-dev",
         "drupal/token": "^1.1",
         "drush/drush": "^9.0.0",
