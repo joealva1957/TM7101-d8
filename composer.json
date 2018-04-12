@@ -29,6 +29,7 @@
         "drupal/entityqueue": "^1.0",
         "drupal/omega": "^5.0",
         "drupal/simplenews": "1.x-dev",
+        "drupal/token": "^1.1",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
