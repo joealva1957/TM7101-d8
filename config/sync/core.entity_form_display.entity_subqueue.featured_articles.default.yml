@@ -1,0 +1,26 @@
+uuid: 519dc83a-4b87-4204-86fb-127fc5231354
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.featured_articles
+id: entity_subqueue.featured_articles.default
+targetEntityType: entity_subqueue
+bundle: featured_articles
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

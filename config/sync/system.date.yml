@@ -1,6 +1,6 @@
 country:
   default: CR
-first_day: 0
+first_day: 1
 timezone:
   default: America/Costa_Rica
   user:

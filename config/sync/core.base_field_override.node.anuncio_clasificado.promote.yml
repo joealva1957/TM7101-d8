@@ -1,0 +1,22 @@
+uuid: 4a07676f-14b6-4bd3-908d-ee0dc2ea6503
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anuncio_clasificado
+id: node.anuncio_clasificado.promote
+field_name: promote
+entity_type: node
+bundle: anuncio_clasificado
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

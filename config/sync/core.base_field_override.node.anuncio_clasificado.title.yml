@@ -1,0 +1,18 @@
+uuid: 06d5a7c1-b8ef-409b-bd01-071e5526a628
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.anuncio_clasificado
+id: node.anuncio_clasificado.title
+field_name: title
+entity_type: node
+bundle: anuncio_clasificado
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

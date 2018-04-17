@@ -1,0 +1,25 @@
+uuid: 514a1140-cc7b-4690-b74a-ef68c4e2fdc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_featured_articles
+    - node.type.article
+id: node.article.field_featured_articles
+field_name: field_featured_articles
+entity_type: node
+bundle: article
+label: 'Featured Articles'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: featured_articles
+      display_name: entity_reference_1
+      arguments: {  }
+field_type: entity_reference

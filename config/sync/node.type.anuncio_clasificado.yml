@@ -1,0 +1,18 @@
+uuid: 9a06d96f-02fc-4545-84a7-ccf0806215df
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Anuncio clasificado'
+type: anuncio_clasificado
+description: 'Este tipo deber ser aplicado para ofertar y demandar productos y servicios de transporte.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

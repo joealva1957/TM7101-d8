@@ -1,0 +1,22 @@
+uuid: cd5b7de3-3962-493c-bf08-1eaf7fed5c85
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: url_seo_amigable
+label: 'URL SEO AMIGABLE ARTICULO'
+type: 'canonical_entities:node'
+pattern: '[node:field_categoria]/[node:title]'
+selection_criteria:
+  cdcd6f63-6a8f-45ed-a070-4352bf7bf0fe:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: cdcd6f63-6a8f-45ed-a070-4352bf7bf0fe
+selection_logic: and
+weight: -5
+relationships: {  }

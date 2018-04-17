@@ -1,0 +1,20 @@
+uuid: 29ef1ed7-f228-4e39-b6c4-7c2b1d4e7170
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.featured_articles
+id: entity_subqueue.featured_articles.default
+targetEntityType: entity_subqueue
+bundle: featured_articles
+mode: default
+content:
+  items:
+    label: inline
+    type: entity_reference_label
+    weight: 1
+    region: content
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 78efd44c-6b77-46f3-ab18-b34c5d426b1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - openchurch_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: openchurch_theme_help
+theme: openchurch_theme
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

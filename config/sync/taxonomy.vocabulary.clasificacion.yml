@@ -1,0 +1,9 @@
+uuid: e3cb45fc-ea54-45ed-a80c-6cd796368f75
+langcode: en
+status: true
+dependencies: {  }
+name: Clasificación
+vid: clasificacion
+description: 'Lista para clasificar los tipos de transporte'
+hierarchy: 0
+weight: 0

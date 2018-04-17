@@ -1,0 +1,22 @@
+uuid: b9be0d49-bf77-4be5-978a-794c48675206
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: url_seo_amigable_evento
+label: 'URL SEO AMIGABLE EVENTO'
+type: 'canonical_entities:node'
+pattern: '[node:field_date:date:html_year]/[node:field_date:date:custom:m]/[node:title]'
+selection_criteria:
+  8ff04be5-11bc-4dca-b270-dd7f12dda316:
+    id: node_type
+    bundles:
+      event: event
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 8ff04be5-11bc-4dca-b270-dd7f12dda316
+selection_logic: and
+weight: -5
+relationships: {  }

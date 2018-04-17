@@ -1,0 +1,28 @@
+uuid: 95dcdf0f-45c2-48f2-aa3d-6e5ce7101414
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.anuncio_clasificado.body
+    - node.type.anuncio_clasificado
+  module:
+    - text
+    - user
+id: node.anuncio_clasificado.teaser
+targetEntityType: node
+bundle: anuncio_clasificado
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
