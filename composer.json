@@ -24,6 +24,7 @@
         "drupal/calendar": "1.x-dev",
         "drupal/captcha": "^1.0",
         "drupal/coffee": "^1.0",
+        "drupal/commerce": "^2.6",
         "drupal/console": "^1.0.2",
         "drupal/core": "~8.5",
         "drupal/devel": "~1.0",
