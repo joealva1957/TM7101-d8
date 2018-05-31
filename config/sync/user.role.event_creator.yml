@@ -7,6 +7,7 @@ label: 'Event Creator'
 weight: 3
 is_admin: null
 permissions:
+  - 'access demo configuration'
   - 'create event content'
   - 'delete own event content'
   - 'edit own event content'

@@ -1,0 +1,20 @@
+uuid: fd7d76d5-127a-4396-be8b-bc57faaa371a
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - bartik
+id: subscribeblock
+theme: bartik
+region: footer_third
+weight: 0
+provider: null
+plugin: subscribe_block
+settings:
+  id: subscribe_block
+  label: 'Subscribe block'
+  provider: drupal_itm_demos
+  label_display: '0'
+visibility: {  }

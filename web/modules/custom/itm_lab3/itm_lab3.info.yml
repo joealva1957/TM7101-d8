@@ -1,0 +1,5 @@
+name: 'itm_lab3'
+type: module
+description: 'A custom module to show current timestamp'
+core: 8.x
+package: 'Custom'

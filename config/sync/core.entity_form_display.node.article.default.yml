@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_categoria
+    - field.field.node.article.field_email
     - field.field.node.article.field_featured_articles
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
@@ -52,6 +53,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_email:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
     region: content
   field_featured_articles:
     weight: 122

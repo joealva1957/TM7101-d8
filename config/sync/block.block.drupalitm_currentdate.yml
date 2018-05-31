@@ -1,0 +1,21 @@
+uuid: f7192980-4e57-4f5f-8704-ed282cd2b604
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - drupalitm
+id: drupalitm_currentdate
+theme: drupalitm
+region: top_header
+weight: 0
+provider: null
+plugin: default_block
+settings:
+  id: default_block
+  label: 'Current date'
+  provider: itm_lab3
+  label_display: visible
+  current_date: ''
+visibility: {  }

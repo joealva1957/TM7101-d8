@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_categoria
+    - field.field.node.article.field_email
     - field.field.node.article.field_featured_articles
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
@@ -14,6 +15,7 @@ dependencies:
     - node.type.article
   module:
     - comment
+    - drupal_itm_demos
     - image
     - text
     - user
@@ -47,6 +49,13 @@ content:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
+    region: content
+  field_email:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: email_link_field_formatter
     region: content
   field_featured_articles:
     weight: 112

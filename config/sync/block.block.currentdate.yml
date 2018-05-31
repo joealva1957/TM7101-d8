@@ -1,0 +1,21 @@
+uuid: fa482722-5691-4dad-b772-7deccaeef5b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - demo_theme
+id: currentdate
+theme: demo_theme
+region: footer
+weight: 0
+provider: null
+plugin: default_block
+settings:
+  id: default_block
+  label: 'Current date'
+  provider: itm_lab3
+  label_display: visible
+  current_date: ''
+visibility: {  }

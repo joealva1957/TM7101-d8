@@ -1,11 +1,11 @@
 uuid: a9f0eb89-d39d-4dc4-8d91-74e8f386eb85
-name: 'Elige un transportista'
+name: 'Programación Drupal '
 mail: joealva1957@gmail.com
-slogan: 'Uniendo caminos en crecimiento donde el trasporte es nuestro afán de todos los días'
+slogan: 'Informática y Tecnología Multimedia'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

@@ -1,9 +1,8 @@
 uuid: 66aa1a9c-6005-42ad-a680-e0c2c25eb4c8
 langcode: en
-status: true
+status: false
 dependencies:
   config:
-    - core.entity_view_mode.node.featured
     - entityqueue.entity_queue.featured_articles
     - field.storage.node.field_categoria
     - node.type.article
@@ -80,10 +79,12 @@ display:
           row_class: ''
           default_row_class: true
       row:
-        type: 'entity:node'
+        type: fields
         options:
-          relationship: none
-          view_mode: featured
+          default_field_elements: false
+          inline: {  }
+          separator: ''
+          hide_empty: false
       fields:
         title:
           id: title

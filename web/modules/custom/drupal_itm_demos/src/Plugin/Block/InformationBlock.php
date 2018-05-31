@@ -60,6 +60,7 @@ class InformationBlock extends BlockBase implements ContainerFactoryPluginInterf
     $build = [];
 	  
 	$config = \Drupal::config('drupal_itm_demos.configuration');
+	  
 	$color = $config->get('favorite_color');
 	  
     $build['information_block']['#markup'] = $this->t('Hello @name. Your favorite color is @color', [

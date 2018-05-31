@@ -10,3 +10,11 @@ drupal_itm_demos.configuration_form:
     _admin_route: TRUE
 
   
+
+drupal_itm_demos.demo_controller_testTheme:
+  path: '/test-theme'
+  defaults:
+    _controller: '\Drupal\drupal_itm_demos\Controller\DemoController::testTheme'
+    _title: 'testTheme'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,20 @@
+uuid: 04992ecf-dda9-4324-ac55-532ce8c13252
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_subscribeblock
+theme: bootstrap_barrio
+region: sidebar_first
+weight: 0
+provider: null
+plugin: subscribe_block
+settings:
+  id: subscribe_block
+  label: 'Subscribe block'
+  provider: drupal_itm_demos
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 919b56bd-f699-4ec0-b77b-16b474ab7f3b
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_currentdate
+theme: bootstrap_barrio
+region: top_header
+weight: 0
+provider: null
+plugin: default_block
+settings:
+  id: default_block
+  label: 'Current date'
+  provider: itm_lab3
+  label_display: visible
+  current_date: ''
+visibility: {  }
