@@ -4,13 +4,17 @@ var sass = require('gulp-sass');
 var concat = require("gulp-concat");
 var minifyCss = require("gulp-minify-css");
 var uglify = require("gulp-uglify");
+var sourcemaps = require("gulp-sourcemaps");
 
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'scss/style.scss'])
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sourcemaps.init())
+		.pipe(sass().on('error', sass.logError))
+		.pipe(sourcemaps.write())
         .pipe(gulp.dest("css"))
         .pipe(sass({ outputStyle: 'compressed' }))
+		.pipe(sass({ outputStyle: 'expanded' }))
         // .pipe(minifyCss())
         .pipe(browserSync.stream());
 });

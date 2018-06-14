@@ -30,3 +30,12 @@ function bootstrap_sass_form_system_theme_settings_alter(&$form, FormStateInterf
       'bg-transparent' => t('Transparent'),
   );
 }
+
+/**
+ * Implements hook preprocess_filed()
+ *
+ */
+ function drupalitm_preprocess_field(&$variables) {
+ if ($variables['field_name'] === 'field_image')
+ 	$variables['items'][0]['content']['#item_attributes']['class'] = 'img-fluid';
+ }

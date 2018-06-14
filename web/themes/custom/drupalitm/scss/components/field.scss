@@ -42,12 +42,9 @@
     .node .field--type-image {
         float: left;
         /* LTR */
-        margin: 0 $spacer 0 0;
-        /* LTR */
     }
     [dir="rtl"] .node .field--type-image {
         float: right;
-        margin: 0 0 0 $spacer;
     }
     .node .field--type-image+.field--type-image {
         clear: both;
