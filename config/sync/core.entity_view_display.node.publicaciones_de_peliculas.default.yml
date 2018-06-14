@@ -1,0 +1,63 @@
+uuid: 32fb7b8d-52b1-4ec4-b50c-4cb34a86cfdb
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.publicaciones_de_peliculas.body
+    - field.field.node.publicaciones_de_peliculas.comment
+    - field.field.node.publicaciones_de_peliculas.field_image
+    - field.field.node.publicaciones_de_peliculas.field_movies_rating
+    - node.type.publicaciones_de_peliculas
+  module:
+    - comment
+    - image
+    - starrating
+    - text
+    - user
+id: node.publicaciones_de_peliculas.default
+targetEntityType: node
+bundle: publicaciones_de_peliculas
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  comment:
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+    region: content
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_movies_rating:
+    weight: 3
+    label: above
+    settings:
+      fill_blank: 0
+      icon_type: star
+      icon_color: 1
+    third_party_settings: {  }
+    type: starrating
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

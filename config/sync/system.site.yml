@@ -1,11 +1,11 @@
 uuid: a9f0eb89-d39d-4dc4-8d91-74e8f386eb85
-name: 'Programación Drupal '
+name: TM7101
 mail: joealva1957@gmail.com
-slogan: 'Informática y Tecnología Multimedia'
+slogan: ''
 page:
   403: ''
   404: ''
-  front: /home
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

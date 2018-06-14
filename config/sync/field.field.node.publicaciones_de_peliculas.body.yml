@@ -1,0 +1,22 @@
+uuid: 9a28e887-3920-406e-98ee-05dd2c556fab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.publicaciones_de_peliculas
+  module:
+    - text
+id: node.publicaciones_de_peliculas.body
+field_name: body
+entity_type: node
+bundle: publicaciones_de_peliculas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,28 @@
+uuid: 00ace48f-ee60-4a9a-91d5-a36a856924e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publicaciones_de_peliculas.body
+    - node.type.publicaciones_de_peliculas
+  module:
+    - text
+    - user
+id: node.publicaciones_de_peliculas.teaser
+targetEntityType: node
+bundle: publicaciones_de_peliculas
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

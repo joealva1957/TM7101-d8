@@ -1,0 +1,24 @@
+uuid: 50cc5d53-7084-4c15-b66a-9eb4e8941648
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movies_rating
+    - node.type.publicaciones_de_peliculas
+  module:
+    - starrating
+id: node.publicaciones_de_peliculas.field_movies_rating
+field_name: field_movies_rating
+entity_type: node
+bundle: publicaciones_de_peliculas
+label: 'Movies rating'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings:
+  max_value: '10'
+field_type: starrating
