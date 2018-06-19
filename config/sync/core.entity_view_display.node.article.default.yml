@@ -3,19 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
-    - field.field.node.article.comment
     - field.field.node.article.field_categoria
-    - field.field.node.article.field_email
     - field.field.node.article.field_featured_articles
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.large
     - node.type.article
   module:
-    - comment
-    - drupal_itm_demos
     - image
     - text
     - user
@@ -28,37 +23,21 @@ mode: default
 content:
   body:
     type: text_default
-    weight: 0
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
     label: hidden
-  comment:
-    type: comment_default
-    weight: 110
-    region: content
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
   field_categoria:
-    weight: 111
+    weight: 4
     label: above
     settings:
       link: true
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_email:
-    weight: 113
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: email_link_field_formatter
-    region: content
   field_featured_articles:
-    weight: 112
+    weight: 5
     label: above
     settings:
       link: true
@@ -67,7 +46,7 @@ content:
     region: content
   field_image:
     type: image
-    weight: -1
+    weight: 1
     region: content
     settings:
       image_style: large
@@ -76,14 +55,14 @@ content:
     label: hidden
   field_tags:
     type: entity_reference_label
-    weight: 10
+    weight: 3
     region: content
     label: above
     settings:
       link: true
     third_party_settings: {  }
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
